@@ -7,7 +7,7 @@
 #ifndef PCH_H
 #define PCH_H
 
-// aggiungere qui le intestazioni da precompilare
-#include "framework.h"
+#define WIN32_LEAN_AND_MEAN             // Escludere gli elementi usati raramente dalle intestazioni di Windows
+
 
 #endif //PCH_H
